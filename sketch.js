@@ -63,12 +63,12 @@ function draw() {
    //}
 
    //if(path.y > height ){
-   // path.x = height/2;
+   //path.x = height/2;
    //}
 
-  // if(path.x > height ){
-  //   path.y = height;
-  // }
+   //if(path.x > height ){
+  //path.y = height;
+ // }
 
    if(path.y > height ){
     path.y = height/2;
