@@ -58,9 +58,9 @@ function draw() {
   
   //code to reset the background
 
-   if(path.x > height ){
-    path.x = height/2;
-   }
+   //if(path.x > height ){
+    //path.x = height/2;
+   //}
 
    //if(path.y > height ){
    // path.x = height/2;
@@ -70,9 +70,9 @@ function draw() {
   //   path.y = height;
   // }
 
-  // if(path.y > height ){
-  //   path.y = height/2;
-  // }
+   if(path.y > height ){
+    path.y = height/2;
+   }
   
     createCash();
     createDiamonds();
